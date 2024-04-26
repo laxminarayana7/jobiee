@@ -21,8 +21,7 @@ const LogIn = () => {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
 
-                username: 'kminchelle',
-                password: '0lelplR',
+                
                 // expiresInMins: 30, // optional, defaults to 60
                 ...body
             })
