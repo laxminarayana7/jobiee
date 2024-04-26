@@ -1,0 +1,223 @@
+.App {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+    text-align: center;
+}
+
+.fullscreen{
+  background-color: #5a5b5dde;
+  position: relative;
+  height: 100vh;
+}
+
+.loginform{
+  position: absolute;
+  width: 40%;
+  margin: auto;
+  background-color: #5a5b5d;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+.img img{
+  margin-top: 40px;
+}
+.usern{
+  margin: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: baseline;
+}
+.usern label{
+  font-size: 28px;
+
+}
+.usern input{
+  width: 48%;
+  height: 38px;
+  padding-left: 5px;
+  margin-top: 15px;
+  border-radius: 12px;
+  
+}
+.btn1, .btn2{
+  width: 25%;
+  padding: 10px 0px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #47484b;;
+}
+.btn1 a{
+  text-decoration: none;
+    color: #009b00;
+}
+.btn2 a{
+color: #ffff00a3;
+text-decoration: none;
+
+
+}
+.btn1, .btn2 {
+margin: 40px 0;
+}
+.signinform{
+  display: flex;
+}
+.box{
+
+}
+.userns{
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+.userns_div{
+width: 30%;
+margin: 13px 0 28px;
+}
+.userns_input{
+  width: 60%;
+  margin-right: 72px;
+
+}
+.userns label{
+  font-size: 28px;
+
+}
+.userns input{
+  width: 400px;
+  height: 38px;
+  
+  margin-top: 15px;
+  border-radius: 12px;
+  
+}
+.headerbar{
+  background-color: darkgray;
+}
+.logolist{
+  width: 92%;
+  margin: auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  /* border: 1px solid; */
+  padding: 10px;
+  background-color: darkgray;
+  
+}
+.list{
+  display: flex;
+  list-style-type: none;
+}
+.list li a{
+  text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-right: 100px;
+}
+.bodycnt_bg{
+  background-color: #081320;
+height: 100vh;
+}
+.bodycnt{
+  width: 80%;
+  margin: auto;
+  /* padding: 185px 0px 0px 0px; */
+  display: flex;
+  background-color: #081320;
+  justify-content: space-evenly;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.content{
+  width: 50%;
+}
+.content h1{
+  font-size: 54px;
+  color: #c1bcbc;
+  
+}
+.userimg{
+  width: 40%;
+margin: auto;
+}
+.userimg img{
+  width: 100%;
+}
+.btn_withloginsignup{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.log_inbtn{
+  padding: 8px 16px;
+  background-color: #081320;
+  
+}
+.listlogsign{
+  margin-top: 80px;
+}
+.log_in{
+  padding: 10px;
+}
+.log_inbtn a{
+  text-decoration: none;
+  color: darkgray;
+  font-weight: 600;
+  font-size: 14px;
+}
+.jobsearch input{
+  padding: 12px 30px;
+  border-radius: 20px;
+  margin: 10px;
+}
+.jobsearch button {
+ padding: 12px 30px;
+  border-radius: 20px;
+  margin: 10px;
+  color: darkgray;
+  background-color: #081320;
+}
+
+.footer{
+ 
+  background-color: #c1bcbc;
+}
+.footer_size{
+  width: 60%;
+  margin: auto;
+}
+.footnav{
+  display: flex;
+  justify-content: center;
+}
+.footnav p{
+  padding: 0px 10px;
+    font-weight: 600;
+}
+.icons{
+  padding-top: 100px;
+}
+.icons i{
+  border-radius: 50%;
+  background-color: aliceblue;
+  padding: 10px;
+  font-size: 25px;
+}
+.cpy{
+  margin-top: 20px;
+  font-family: fantasy;
+  font-size: 12px;
+}
+
+
+
