@@ -219,5 +219,39 @@ margin: auto;
   font-size: 12px;
 }
 
+.profile_dropdown{
+    display: none;
+    position: absolute;
+    right: 25px;
+
+}
+.profile i{
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+}
+.profile_dropdown div{
+padding: 5px;
+font-size: 13px;
+}
+.profile:hover .profile_dropdown{
+  display: flex;
+  
+}
+.profile_dropdown div:first-child{
+  color: blue;
+}
+.profile_dropdown div:nth-last-child(1){
+  color: red;
+}
+.profile_bg{
+  width: 100%;
+  height: 100vh;
+
+}
+.profile_bg_outer{
+  width: 80%;
+  margin: auto;
+}
 
 
