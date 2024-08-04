@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "./header";
-// import logo1 from './../Images/logo1.png';
 import homebackground from './../Images/homeimg.png';
 import HomePageMui from "./jobieehomepagemui";
 
@@ -10,9 +9,8 @@ const Home = () => {
             <div className="headerbar">
                 <div className="logolist">
                     <div>
-                        {/* <img src={logo1} /> */}
                         <HomePageMui />
-                        </div>
+                    </div>
                     <div className="listui">
                         <ul className="list">
                             <li><a href="">Home</a></li>
@@ -50,13 +48,6 @@ const Home = () => {
                         <i class="fa-brands fa-youtube"></i>
                     </div>
                     <div className="footnav">
-                        {/* <ul>
-                        <li>Home</li>
-                        <li>Job</li>
-                        <li>Contact</li>
-                        <li>Portfolio</li>
-                        <li>Service</li>
-                    </ul> */}
                         <p>Home</p>
                         <p>Job</p>
                         <p>Contact</p>
@@ -64,7 +55,7 @@ const Home = () => {
                         <p>Service</p>
                     </div>
                 </div>
-                <div className="cpy">Copyright <i class="fa-solid fa-copyright"></i>2020; Designed by Laxminarayana</div>
+                <div className="cpy">Copyrightq <i class="fa-solid fa-copyright"></i>2020; Designed by Laxminarayana</div>
             </footer>
         </div>
     )

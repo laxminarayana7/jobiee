@@ -12,12 +12,6 @@ const Header = () => {
                     <button className="log_inbtn"><NavLink to='signup'>SIGNUP</NavLink></button>
                 </div>
             </div>
-
-
-
-
-
-
         </div>
     )
 }

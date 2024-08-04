@@ -11,7 +11,6 @@ const DashBoard = () => {
 
     return (
         <BrowserRouter>
-        
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/login" element={<LogIn />} />
@@ -21,7 +20,6 @@ const DashBoard = () => {
 
             </Routes>
 
-            
         </BrowserRouter>
     )
 }

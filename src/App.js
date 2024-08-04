@@ -7,12 +7,9 @@ import ProfilePage from './dashboard/profilepage';
 function App() {
   return (
     <div className="App">
-     
-
-
       <DashBoard />
       <ProfilePage />
-      
+
     </div>
   );
 }
