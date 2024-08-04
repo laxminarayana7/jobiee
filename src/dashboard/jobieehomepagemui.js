@@ -6,7 +6,7 @@ const HomePageMui = () => {
 
     return (
         <div>
-            <div><img src={logo1} /></div>
+            <div><img src={logo1}/></div>
         </div>
     )
 }

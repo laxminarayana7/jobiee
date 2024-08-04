@@ -35,7 +35,6 @@ const Home = () => {
                     <div className="userimg"><img src={homebackground} /></div>
                 </div>
 
-
             </div>
 
             <footer className="footer">

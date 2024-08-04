@@ -17,7 +17,6 @@ const DashBoard = () => {
                 <Route path="/signup" element={<SignUp />} />
                 <Route path="/jobieehomepagemui" element={<HomePageMui />} />
                 <Route path="/profilepage" element={<ProfilePage />} />
-
             </Routes>
 
         </BrowserRouter>
